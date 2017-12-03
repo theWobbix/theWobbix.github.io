@@ -1,0 +1,56 @@
+:root{
+    --main-color: #3750aa;
+}
+
+
+body{
+    margin: 0;
+}
+
+header{
+    background: rgb(17, 17, 17);
+    background: url(http://www.gireve.com/wp-content/uploads/2016/04/Header-HD-01.jpg) no-repeat;
+    background-position-y: -250px;
+    color: rgb(233, 234, 255);
+    padding: 260px 12px 0px 12px;
+}
+
+header h1{
+    margin: 0;
+    display: inline;
+}
+
+
+nav ul{
+    margin: 0;
+    display: inline;
+    padding: 0 0 0 10px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    background: var(--main-color);
+    padding: 5px 12px;
+    border-radius: 2px 2px 0 0;
+}
+
+nav ul li a{
+    color: rgb(233, 234, 255);
+}
+
+.col{
+    float: left;
+    margin: 1%;
+    width: 31%;
+    background: var(--main-color);
+    text-align: center;
+    border-radius: 2px;
+    color: whitesmoke;
+}
+
+footer{
+    clear: both;
+    padding: 30px 0 0 12px;
+}
+

@@ -1,0 +1,33 @@
+.darkBG{
+    color: white;
+    background: #999999;
+}
+
+.darkerBG{
+    color: white;
+    background: #666666;
+}
+
+.darkestBG{
+    color: white;
+    background: #333333;
+}
+
+.MyPanel{
+    margin: 3%;
+    border: 1px solid black;   
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0px 0px 4px rgb(177, 177, 177);
+}
+
+.MyPanel .heading{
+    background: rgb(175, 243, 175);
+    padding: 10px 20px;
+    color: rgb(97, 97, 97);
+    border-radius: 5px 5px 0 0;
+}
+
+.MyPanel .body{
+    padding: 10px 20px;
+
+}
