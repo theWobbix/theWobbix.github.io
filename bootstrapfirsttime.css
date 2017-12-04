@@ -29,5 +29,17 @@
 
 .MyPanel .body{
     padding: 10px 20px;
-
 }
+
+.MyPanel .showonhover{
+    display: none;
+}
+
+.MyPanel:hover{
+    box-shadow: 0px 0px 8px rgb(141, 141, 141);
+}
+
+.MyPanel:hover .showonhover{
+    display: inline-block;
+}
+
