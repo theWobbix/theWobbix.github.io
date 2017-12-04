@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="../css/header.css" type="text/css" />
+    <link rel="stylesheet" href="../css/progress.css" type="text/css">
+    <title>theWobbix</title>
+</head>
+
+    <!-- Body -->
+    <body>
+        <!-- Header -->
+        <header class="MyHeader">
+            <nav>
+                <h1>theWobbix</h1>    
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li id="selected">My learning Progress</li>
+                    <li><a href="#">JS Experiments</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>                       
+        </header>
+
+        <!-- Title -->
+        <div class="title">
+            <br><br>
+            <h1>My Previous Pages</h1>
+            <div class="line"></div>
+            <p>The Websites that i've made while learning Webdevelopment.</p>
+        </div>
+
+        <!-- Body -->
+        <div class="row">
+            <!-- First Panel -->
+            <div class="col MyPanel" onclick="location.href='../older/first_page.html';" style="cursor:pointer;">
+                <h1>Website #1</h1>
+                <p>This was my first attempt at making a website. I watched a tutorial about html and tried some things out.</p>
+            </div>
+
+            <!-- Second Panel -->
+            <div class="col MyPanel" onclick="location.href='../older/second_page.html';" style="cursor:pointer;">
+                <h1>Website #2</h1>
+                <p>In this website, I integrated css for the first time. It was motivating to see the power of css and because of this, I
+                    even added a picture and searched for nice looking colors.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <!-- First Panel -->
+            <div class="col MyPanel" onclick="location.href='../older/bootstrapfirsttime.html';" style="cursor:pointer;">
+                <h1>Website #3</h1>
+                <p>Here, I used Bootstap for the first time. The website you're on doesnt use bootstrap because i want to learn
+                    how to use proper css and I have the feeling that bootstrap will hold me back (because of the automations).
+                    On this website I learned also how to make those pretty boxes like the one this paragraph is in.
+                </p>
+            </div>
+    
+            <!-- Second Panel -->
+            <div id="not_ready" class="col MyPanel" onclick="location.href='#';" style="cursor:pointer;">
+                <h1>Website #4?</h1>
+                <p>This website has to be made.</p>
+            </div>
+        </div>
+
+
+        <footer id="footer_0">
+            <p> <strong style="color: black;">hello darkness my old friend</strong></p>
+            <p>the_wobbix</p>             
+            <p>2017</p>
+        </footer>
+
+
+
+    </body>
+</html>

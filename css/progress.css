@@ -1,0 +1,61 @@
+:root{
+    --main-color_black:  #2a363b;
+    --main-color_beige: #FECEA8;
+    --main-color_green: #99B898;
+    --main-color_lightred: #FF847C;
+    --main-color-red: #E84A5F;
+    --main-font_panel: 20px "Fira Sans", sans-serif;
+}
+
+.col{
+    float: left;
+    position: relative;
+    left: -50%;
+    height: 340px;
+}
+
+.row{
+    float: left;
+    position: relative;
+    left: 50%;
+    padding-top: 50px;
+}
+
+.MyPanel{
+    border: 1px solid var(--main-color_black);
+    border-radius: 6px 6px 0 0;
+    color: var(--main-color_black);
+    float: left;
+    font: var(--main-font_panel);
+    left: -50%;
+    margin: 20px 40px;
+    position: relative;
+    width: 500px;
+    background: hsl(352, 77%, 59%);
+}
+
+.MyPanel:hover{
+    background: hsl(352, 77%, 57%);
+    box-shadow: 0 0 2px black;
+    color:   hsl(198, 17%, 18%);
+}
+
+.MyPanel p{
+    text-align: justify;
+    hyphens: auto;
+    padding: 0 20px 0 20px;
+}
+
+.MyPanel h1{
+    text-align: center;
+    border: 1px solid var(--main-color_black);
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    padding: 5px 10px 30px 10px;
+}
+
+#not_ready{
+    visibility: hidden;
+}
+
