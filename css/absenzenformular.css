@@ -1,0 +1,165 @@
+#eingeloggt_als{
+    visibility: hidden;
+}
+
+.absenzenformular{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+    width: 360px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.faecher-input{
+    width: 100%;
+}
+
+#fachTable{
+    width: 100%;
+}
+
+#zelle{
+    transition: 0.4s;
+}
+
+#nichtfaecher-input{
+    transition: 0.4s;
+    width: 100%;
+}
+
+.inputfield{
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 30px;
+}
+
+.inputfield label{
+    margin-bottom: 15px;
+}
+
+.inputfield input{
+    height: 53px;
+    font-size: 25px;
+
+    background-color: rgb(140, 72, 218);
+
+    border-color: rgb(106, 20, 204);
+    border-bottom-width: 3px;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+
+    transition: 0.3s;
+}
+
+.inputfield input:focus{
+    border-color: rgb(147, 105, 196);
+    box-shadow: inset 0px 0px 3px 0px rgba(24, 24, 24, 0.767);
+}
+
+#plusbutton{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    float: right;
+
+    background: rgb(211, 0, 0);
+    box-shadow: 2px 5px 10px 1px rgba(24,24,24,0.5);
+
+    border-width: 0;
+    
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+
+    transition: 0.4s;    
+
+    text-align: center;
+}
+
+#plusbutton:hover{
+    box-shadow: 3px 6px 11px 2px rgba(24,24,24,0.4);
+}
+
+#date{
+    font-size: initial;
+    width: auto;
+}
+
+/* Sorgt dafür, dass die zwei enthaltenen Labels nebeneinander sind */
+#begruendungLabel{
+    display: flex;
+}
+
+#characterlimit{
+    font-size: 15px;
+
+    position: relative;
+    top: 10px;
+
+    padding-left: 15px;
+}
+
+#begruendung{
+    height: 90px;
+
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: rgb(140, 72, 218);
+
+    border-color: rgb(106, 20, 204);
+    border-bottom-width: 3px;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+
+    transition: 0.3s;
+}
+
+#begruendung:focus{
+    border-color: rgb(147, 105, 196);
+    box-shadow: inset 0px 0px 3px 0px rgba(24, 24, 24, 0.767);
+}
+
+#lektionenanzahl{
+    width: 20%;
+}
+
+#absenden{
+    height: 53px;
+    width: 100%;
+    font-size: 30px;
+    background: rgb(98, 157, 247);
+    border-width: 0;
+    box-shadow: 1px 4px 5px 1px rgba(24,24,24,0.5);
+    transition: 0.5s;
+}
+
+#absenden:hover{
+    background: rgb(111, 167, 250); 
+    box-shadow: 2px 5px 6px 2px rgba(24,24,24,0.4); 
+}
+
+/*  
+Breite des Formulars an Handys angepasst.
+Breite in Prozent angegeben, damit es besser an alle
+möglichen zukünftigen Bildschirme angepasst ist.
+*/
+@media(max-width:568px){
+    .absenzenformular{
+        width: 94%;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-bottom: 6%;
+    }
+}
+
+/* Horizontale ausrichtung für Handys ist nicht unterstützt und müsste genau hier
+mit einer Meidaquery (@media(...)) eingefügt werden. Da dies aber unverhältnismässig wenig
+genutzt werden würde, lasse ich bewusst die Unterstützung für dieses Bildschirmformat aus. */

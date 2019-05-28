@@ -1,0 +1,24 @@
+:root{
+    --main-color_black:  #2a363b;
+    --main-color_beige: #FECEA8;
+    --main-color_green: #99B898;
+    --main-color_lightred: #FF847C;
+    --main-color-red: #E84A5F;
+}
+
+div p{
+    text-align: center;
+    font: 25px "Fira Sans", sans-serif;
+}
+
+
+
+div p a{
+    text-decoration-line: none;
+    color: var(--main-color_black);
+}
+
+div p a:hover{
+    color: var(--main-color_beige);
+    text-shadow: 0px 2px var(--main-color_black);
+}
